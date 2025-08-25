@@ -1,0 +1,84 @@
+body {
+  background-color: #fff;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.myBg {
+  background-color: #fffefc;
+}
+.profession-img {
+  width: 70%;
+}
+.width-65 {
+  width: 70%;
+}
+.width-45 {
+  width: 40%;
+}
+
+.profession-link {
+  position: absolute;
+  width: 270px;
+  height: 70px;
+  top: 198%;
+  left: -94%;
+  background-color: #fff;
+}
+
+.position-absolute {
+  position: absolute;
+  top: 150%;
+  z-index: -1;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #666869 !important;
+  opacity: 1;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  width: 30px !important;
+  border-radius: 9999px !important;
+  background-color: #07040c !important;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  margin-top: 36px;
+  position: relative;
+}
+
+/* .swiper-slide-active {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1) !important;
+} */
+
+/* Blogs component*/
+.blogs-section .swiper-slide-active {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.blogs-section .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #666869 !important;
+}
+
+.blogs-section .swiper-pagination-bullet-active {
+  width: 30px !important;
+  background-color: #07040c !important;
+}
+
+/* Testimonial component */
+.testimonial-section .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #666869 !important;
+}
+
+.testimonial-section .swiper-pagination-bullet-active {
+  width: 30px !important;
+  background-color: #07040c !important;
+}
