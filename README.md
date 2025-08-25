@@ -63,6 +63,10 @@ src
 ┣ main.jsx
 ┗ style.css
 
+### Screenshot
+
+![App Screenshot](./public/screenshots/Homepage.jpg)
+
 ### Future Improvements:
 
 - Make it fully responsive
